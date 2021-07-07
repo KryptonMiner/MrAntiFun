@@ -1,5 +1,5 @@
 local required = {
-    game.HttpGet, game.GetObjects, getfenv, require, setclipboard, fireclickdetector
+    game.HttpGet, game.GetObjects, getfenv, require, setclipboard, fireclickdetector, sethiddenproperty
 }
 
 for i,v in pairs(required) do
